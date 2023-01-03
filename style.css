@@ -1,0 +1,77 @@
+:root {
+  --txt-color: #07043b;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 14px;
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.8em 1.7em;
+}
+.nav-logo {
+  width: 6em;
+}
+.nav-bar {
+  display: flex;
+  font-size: 0.85rem;
+  font-weight: 400;
+  align-items: center;
+  gap: 2em;
+  color: var(--txt-color);
+}
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: var(--txt-color);
+}
+.section-1-img {
+  max-width: 22em;
+  margin: 0 auto;
+  padding-top: 7.4em;
+}
+.section-1-h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  line-height: 1.5em;
+  margin-top: 1.6em;
+}
+.section-1-p {
+  font-weight: 400;
+  line-height: 1.5em;
+  margin-top: 1.7em;
+  margin-bottom: 2.2em;
+}
+.email-btn {
+  display: flex;
+  flex-direction: column;
+  width: 21em;
+  gap: 1.2em;
+  margin: 0 auto;
+}
+.email {
+  border: 0.7px solid var(--txt-color);
+  border-radius: 4px;
+  padding: 1em 12em 0.8em 1.5em;
+  color: #c2c2c2;
+}
+.btn {
+  background-color: #2f65f8;
+  border: none;
+  border-radius: 4px;
+  padding: 0.85em 7.3em;
+  color: white;
+  font-weight: 700;
+}
