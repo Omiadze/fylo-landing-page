@@ -31,15 +31,16 @@ html {
   color: var(--txt-color);
 }
 .section-1,
-.section-2 {
+.main-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+
   color: var(--txt-color);
 }
 .section-1-img {
-  max-width: 22em;
+  width: 22em;
   margin: 0 auto;
   padding-top: 7.4em;
 }
@@ -85,7 +86,7 @@ html {
 /* section-2 */
 .section-2-img {
   margin: 0 auto;
-  max-width: 22.86em;
+  width: 22.86em;
   padding: 13.1em 2em 6em 2em;
 }
 .section-2-h3 {
@@ -100,7 +101,7 @@ html {
 }
 .arrow-div {
   color: #3da08f;
-  width: 11.1em;
+  width: 11.6em;
   height: 1.6em;
   display: flex;
   margin: 0 auto;
@@ -204,4 +205,121 @@ html {
 }
 .icons {
   margin: 0 auto;
+}
+/* for desktop */
+
+@media screen and (min-width: 1224px) {
+  header,
+  .section-2,
+  .section-4,
+  .footer {
+    padding: 4.7em 5.7em 6.1em 5.7em;
+  }
+  .nav-logo {
+    width: 11.9em;
+  }
+  .nav-bar {
+    font-size: 1.14rem;
+    gap: 3.5em;
+  }
+  .section-1 {
+    flex-direction: row;
+    text-align: left;
+  }
+  .section-1-h1 {
+    font-size: 2.86rem;
+    margin-top: 4.2em;
+  }
+
+  .section-1-p,
+  .section-4-p {
+    font-size: 1.21rem;
+    width: 33em;
+  }
+  .section-1-img {
+    order: 2;
+    width: 45em;
+  }
+  /*  firts btns */
+  .email-btn-1 {
+    flex-direction: row;
+    margin: 0;
+    width: 40em;
+  }
+  .email-1 {
+    width: 23em;
+  }
+  .btn {
+    padding: 0;
+    width: 14.3em;
+  }
+  /* second half of page !!!!!!!!!!!!!!!!*/
+
+  .main-content {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .section-2-img {
+    order: 2;
+    width: 39em;
+    height: 30em;
+    padding: 0;
+    margin-top: 18em;
+    margin-right: 6em;
+  }
+
+  .section-2-p {
+    padding: 1em 0;
+    width: 33.2em;
+  }
+  .section-2-h3 {
+    font-size: 2.86rem;
+    margin: 3em 0 1em 0;
+  }
+  .arrow-div {
+    margin: 0;
+  }
+  .white-box {
+    margin: 3.5em 0;
+    width: 25.5em;
+    padding: 2.4em;
+  }
+  .quotes-p {
+    font-size: 1rem;
+  }
+  .avatar-h1 {
+    font-size: 0.8rem;
+  }
+  .avatar-p {
+    font-size: 0.6rem;
+  }
+  .section-4 {
+    display: flex;
+    text-align: left;
+    gap: 16em;
+  }
+  .section-4-h {
+    font-size: 2.3rem;
+  }
+  .email-btn-2 {
+    gap: 1.14em;
+  }
+  .email-2 {
+    font-size: 0.86rem;
+    padding: 1.3em 18em 1.5em 1.8em;
+  }
+  .btn-2 {
+    font-size: 1rem;
+    padding: 1.1em 1.6em;
+  }
+  .footer {
+    flex-direction: row;
+    gap: 13em;
+  }
+  .about,
+  .contact,
+  .icons {
+    padding-top: 4.1em;
+  }
 }
